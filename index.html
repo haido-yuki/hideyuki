@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>00 Control Team</title>
+    <title>About Me - Hideyuki1019</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     <style>
         body {
@@ -20,17 +20,26 @@
             color: #00d4ff;
             margin: 2rem 0 1rem;
         }
-        h3 {
-            text-align: center;
-            font-size: 1.5rem;
-            color: #aad8ff;
-            margin-bottom: 2rem;
+        h2 {
+            color: #00d4ff;
         }
-        .button-container {
+        .container {
+            max-width: 750px;
+            margin: auto;
+            padding: 2rem;
+            background: rgba(20, 30, 48, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
             text-align: center;
-            margin: 2rem 0;
         }
-        a.btn {
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #00d4ff;
+            margin-bottom: 1rem;
+        }
+        .btn {
             display: inline-block;
             color: #fff;
             background-color: #0077b6;
@@ -42,49 +51,8 @@
             font-weight: bold;
             transition: all 0.3s ease;
         }
-        a.btn:hover {
+        .btn:hover {
             background-color: #005f8b;
-        }
-        section {
-            margin: 2rem auto;
-            max-width: 850px;
-        }
-        dl {
-            background: rgba(20, 30, 48, 0.9);
-            padding: 2rem;
-            border-radius: 15px;
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
-        }
-        dt {
-            font-weight: bold;
-            font-size: 1.2rem;
-            color: #00d4ff;
-            margin-top: 1rem;
-        }
-        dd {
-            margin-bottom: 1rem;
-            font-size: 1rem;
-        }
-        dd a {
-            color: #00d4ff;
-            text-decoration: underline;
-        }
-        dd a:hover {
-            text-decoration: none;
-        }
-        .news {
-            background: rgba(0, 0, 0, 0.7);
-            padding: 2rem;
-            border-radius: 15px;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-            margin-top: 2rem;
-        }
-        .faq {
-            background: rgba(0, 0, 0, 0.7);
-            padding: 2rem;
-            border-radius: 15px;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-            margin-top: 2rem;
         }
         footer {
             text-align: center;
@@ -103,67 +71,37 @@
             color: #00d4ff;
         }
     </style>
-    <!-- Security Headers Example -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net">
-    <meta http-equiv="X-Content-Type-Options" content="nosniff">
-    <meta http-equiv="X-Frame-Options" content="DENY">
-    <meta http-equiv="Strict-Transport-Security" content="max-age=63072000; includeSubDomains; preload">
 </head>
 <body>
     <header>
-        <h1>00 Control Team</h1>
-        <h3>Welcome to our official website!</h3>
+        <h1>About Me</h1>
     </header>
 
-    <div class="button-container">
-        <a class="btn" target="_blank" rel="noopener noreferrer" href="https://discord.gg/T64k8dvF9f">
-            Join our Discord Server
-        </a>
-    </div>
-
-    <main>
-        <section>
-            <h2>About 00 Control Team</h2>
-            <p>
-                The 00 Control Team is a community of dedicated players who enjoy collaborating and competing in the exciting world of <a href="https://ja.namemc.com/server/simpcraft.com" target="_blank">Simpcraft</a>. We specialize in strategy, teamwork, and having fun together while achieving our goals.
-            </p>
-        </section>
-
-        <section class="news">
-            <h2>Latest News & Updates</h2>
-            <ul>
-                <li>📅 <strong>Event:</strong> nothing:D</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Team Members</h2>
-            <ul>
-                <li><strong>Hideyuki1019(🇯🇵)</strong> - normal member learning python</li>
-                <li><strong>Hello_jr(🇯🇵)</strong> - Strategy Specialist</li>
-                <li><strong>PizzaV(🇧🇪)</strong> - Strategy Specialist</li>
-                <li><strong>more...</strong></li>
-            </ul>
-        </section>
-
-        <section class="faq">
-            <h2>FAQ</h2>
-            <dl>
-                <dt>What is Simpcraft?</dt>
-                <dd>Simpcraft is a multiplayer server where we enjoy various mini-games and challenges. Learn more <a href="https://ja.namemc.com/server/simpcraft.com" target="_blank">here</a>.</dd>
-                <dt>How can I join the team?</dt>
-                <dd>You can apply by contacting us through our <a href="https://discord.gg/T64k8dvF9f" target="_blank">Discord server</a>.</dd>
-            </dl>
-        </section>
+    <main class="container">
+        <img src="discord_icon_1.png" alt="Profile Image" class="profile-img">
+        <h2>Hideyuki1019 (🇯🇵/h2>
+        <p>こんにちは！Pythonを勉強中です。変人です。</p>
+        
+        <h2>🌟 My Skills</h2>
+        <ul>
+            <li>Python 初心者 (勉強中)</li>
+            <li>チームプレイ & コミュニケーション</li>
+            <li>仲間がほしい</li>
+        </ul>
+        
+        <h2>🚀 今頑張っていること</h2>
+        <p>linuxのガチ勢になりたい。windowsのデザインは悪いということを最近知った。</p>
+        
+        <a class="btn" href="https://discord.gg/T64k8dvF9f" target="_blank">Join my Discord</a>
     </main>
 
     <footer>
         <p>
-            Created by 00 Control Team | <a href="https://discord.gg/T64k8dvF9f" target="_blank">Discord</a>
+            Created by Hideyuki1019 | <a href="https://discord.gg/T64k8dvF9f" target="_blank">Discord</a>
         </p>
     </footer>
-
 </body>
-</html>
+</html>                                                                                                              
+
 
 
